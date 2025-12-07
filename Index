@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AIHomeDesignStudio — Modern Small-Home Plans for BC</title>
+  <meta name="description" content="AIHomeDesignStudio: modern, permit-ready small-home plans for BC. Laneway homes, garden suites, secondary suites." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="assets/logo-1080.png" alt="AIHomeDesignStudio logo" class="logo" />
+      <nav class="nav" aria-label="Primary">
+        <a href="#plans">Plans</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero" aria-label="Hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>AIHomeDesignStudio</h1>
+        <p class="tagline">Modern, Luxurious Small-Home Plans — Designed for BC</p>
+        <p class="lede">Dark-luxury aesthetics meet coastal sustainability. Single-page catalog of permit-ready plans, AI-assisted design, and build guidance.</p>
+        <div class="cta-row">
+          <a class="btn" href="#plans">View Plans</a>
+          <a class="btn btn-outline" href="https://www.instagram.com/AIHomeDesignStudio" target="_blank" rel="noopener">Follow on Instagram</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/hero-render.jpg" alt="Hero render">
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="plans" class="section">
+      <div class="container">
+        <h2>Featured Plans</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/plan-1.jpg" alt="Evergreen Garden Suite">
+            <div class="card-body">
+              <h3>Evergreen Garden Suite — 75 m²</h3>
+              <p>Single-storey garden suite designed for Surrey. Luxe dark finishes, natural cedar, and efficient floorplan.</p>
+              <a class="btn" href="#contact">View Floor Plan</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/plan-2.jpg" alt="Coastal Loft Laneway">
+            <div class="card-body">
+              <h3>Coastal Loft Laneway — 83 m²</h3>
+              <p>Two-storey laneway home for Vancouver lots. Light-filled, Scandinavian lines with dark accents.</p>
+              <a class="btn" href="#contact">View Floor Plan</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/plan-3.jpg" alt="Richmond Interior Suite">
+            <div class="card-body">
+              <h3>Richmond Interior Suite — 90 m²</h3>
+              <p>Basement or main-floor suite optimized for Richmond by-laws. Smart layout, modern finishes.</p>
+              <a class="btn" href="#contact">View Floor Plan</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <img src="assets/gallery-1.jpg" alt="gallery 1">
+          <img src="assets/gallery-2.jpg" alt="gallery 2">
+          <img src="assets/gallery-3.jpg" alt="gallery 3">
+          <img src="assets/gallery-4.jpg" alt="gallery 4">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About AIHomeDesignStudio</h2>
+        <p>AIHomeDesignStudio blends AI-assisted design with architectural know-how to create small-home plans tailored for British Columbia. Our focus is on beautiful, buildable, and permit-aware designs that respect the environment and local bylaws.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>For plan requests, customizations, or partnerships, email <a href="mailto:hello@aihomedesignstudio.com">hello@aihomedesignstudio.com</a> or use the form below.</p>
+        <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST" class="contact-form">
+          <label><span>Name</span><input type="text" name="name" required></label>
+          <label><span>Email</span><input type="email" name="email" required></label>
+          <label class="full"><span>Message</span><textarea name="message" rows="5"></textarea></label>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© AIHomeDesignStudio · Designed for BC living · <a href="https://www.instagram.com/AIHomeDesignStudio">Instagram</a></p>
+    </div>
+  </footer>
+</body>
+</html>
